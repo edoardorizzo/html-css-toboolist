@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #F6F8F9;
+}
+
+header{
+    filter: drop-shadow(1px 1px 5px #f1f1f1);
+}
+
+.navbar {
+    background-color: white;
+    height: 64px;
+}
+
+.logo{
+    margin-left: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.logo-name {
+    font-weight: bold;
+    font-size: 32px;
+    display: inline-block;
+}
+
+.container{
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px; 
+}
+
+button{
+    border: none;
+}
