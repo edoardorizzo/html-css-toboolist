@@ -30,13 +30,69 @@ header{
     display: inline-block;
 }
 
-.container{
+main{
     background-color: white;
     margin-top: 40px;
     margin-left: 80px;
-    margin-right: 80px; 
+    margin-right: 80px;
 }
 
-button{
+.container{
+    padding-top: 16px;
+    padding-left: 40px;
+}
+
+/* .add-btn{
+    margin-top: 16px;
+    margin-left: 32px;
+} */
+
+.primary{
+    background-color: #47ADF1;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
     border: none;
+}
+
+.secondary{
+    background-color: white;
+    padding: 8px;
+    border-radius: 8px;
+    color: grey;
+    border: 1px solid grey;
+}
+
+hr{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #f1f1f1;
+}
+
+.task{
+    margin-top: 32px;
+}
+
+.check{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid green;
+    border-radius: 50%;
+    text-align: center;
+    color: green;
+    margin-right: 8px;
+    margin-bottom: 10px;
+}
+
+h4{
+    margin-bottom: 8px;
+}
+
+.blue-tag{
+    background-color: #47ADF1;
+    padding: 8px;
+    font-size: 8px;
+    color: white;
+    border-radius: 8px;
 }

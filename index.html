@@ -1,32 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-    <title>html-css-toboolist</title>
-</head>
-<body>
-    
-    <header>
-        <div class="navbar">
-            <img class="logo" src="./img/Logo.png" alt="">
-            <span class="logo-name">Tobolist</span>
-        </div>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&family=Roboto:wght@400;700;900&display=swap"
+            rel="stylesheet">
+        <title>html-css-toboolist</title>
+    </head>
+    <body>
 
-    <main class="container">
-        <div class="add-btn">
-            <input type="button" value="Add task">
-            <input type="button" value="Add Section">
-        </div>
-    </main>
+        <header>
+            <div class="navbar">
+                <img class="logo" src="./img/Logo.png" alt="">
+                <span class="logo-name">Tobolist</span>
+            </div>
+        </header>
 
-    <footer></footer>
-    
-</body>
+        <main>
+            <div class="container">
+                <div class="add-btn">
+                    <input class="primary" type="button" value="Add task">
+                    <input class="secondary" type="button" value="Add Section">
+                </div>
+                <hr>
+
+                <!-- TASKS -->
+                <div class="task">
+                    <h4>&#8897; New Task</h4>
+                    <span class="check">&#10003;</span><span>Quarterly Newsletter</span> <span class="blue-tag">Editorial</span>
+                </div>
+                <div class="task">
+                    <h4>&#8897; Today</h4>
+                    <span class="check">&#10003;</span><span>Recruiting Blog Post</span> <span class="blue-tag">Editorial</span><br>
+                    <span class="check">&#10003;</span><span>Mobile App luanch</span> <span class="blue-tag">Editorial</span><br>
+                    <span class="check">&#10003;</span><span>interview John H</span> <span class="blue-tag">Editorial</span><br>
+                    <span class="check">&#10003;</span><span>Summit update to mobile storefronts</span> <span class="blue-tag">Editorial</span><br>
+                </div>
+
+                
+
+            </div>
+
+        </main>
+
+        <footer></footer>
+
+    </body>
 </html>
