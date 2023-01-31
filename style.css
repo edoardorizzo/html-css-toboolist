@@ -63,13 +63,10 @@ main{
 }
 
 hr{
-    margin-top: 16px;
-    margin-bottom: 16px;
     border: 1px solid #F6F8F9;
 }
 
 .task{
-    margin-top: 24px;
     margin-bottom: 24px;
 }
 
