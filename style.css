@@ -15,19 +15,20 @@ header{
 
 .navbar {
     background-color: white;
-    height: 64px;
+    height: 100%;
 }
 
 .logo{
     margin-left: 16px;
     margin-top: 8px;
     margin-bottom: 8px;
+    vertical-align: middle;
 }
 
 .logo-name {
     font-weight: bold;
     font-size: 32px;
-    display: inline-block;
+    vertical-align: middle;
 }
 
 main{
@@ -35,17 +36,15 @@ main{
     margin-top: 40px;
     margin-left: 80px;
     margin-right: 80px;
+    border-radius: 8px;
 }
 
 .container{
     padding-top: 16px;
+    padding-right: 40px;
     padding-left: 40px;
+    padding-bottom: 16px;
 }
-
-/* .add-btn{
-    margin-top: 16px;
-    margin-left: 32px;
-} */
 
 .primary{
     background-color: #47ADF1;
@@ -59,18 +58,19 @@ main{
     background-color: white;
     padding: 8px;
     border-radius: 8px;
-    color: grey;
-    border: 1px solid grey;
+    color: #C8CED3;
+    border: 1px solid #C8CED3;
 }
 
 hr{
     margin-top: 16px;
     margin-bottom: 16px;
-    color: #f1f1f1;
+    border: 1px solid #F6F8F9;
 }
 
 .task{
-    margin-top: 32px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
 .check{
@@ -85,12 +85,68 @@ hr{
     margin-bottom: 10px;
 }
 
+.un-check{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid red;
+    border-radius: 50%;
+    text-align: center;
+    color: red;
+    margin-right: 8px;
+    margin-bottom: 10px;
+}
+
+.text{
+    font-size: 12px;
+}
+
 h4{
     margin-bottom: 8px;
 }
 
 .blue-tag{
     background-color: #47ADF1;
+    padding: 8px;
+    font-size: 8px;
+    color: white;
+    border-radius: 8px;
+}
+
+.purple-tag{
+    background-color: #9C72E4;
+    padding: 8px;
+    font-size: 8px;
+    color: white;
+    border-radius: 8px;
+}
+
+.green-tag{
+    background-color: #64C0A9;
+    padding: 8px;
+    font-size: 8px;
+    color: white;
+    border-radius: 8px;
+}
+
+.lightgreen-tag{
+    background-color: #B0C926;
+    padding: 8px;
+    font-size: 8px;
+    color: white;
+    border-radius: 8px;
+}
+
+.orange-tag{
+    background-color: #F29E33;
+    padding: 8px;
+    font-size: 8px;
+    color: white;
+    border-radius: 8px;
+}
+
+.pink-tag{
+    background-color: #D863A1;
     padding: 8px;
     font-size: 8px;
     color: white;
