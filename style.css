@@ -100,6 +100,7 @@ hr{
 
 h4{
     margin-bottom: 8px;
+    color: #3A3E48;
 }
 
 .blue-tag{
@@ -107,7 +108,7 @@ h4{
     padding: 8px;
     font-size: 8px;
     color: white;
-    border-radius: 8px;
+    border-radius: 16px;
 }
 
 .purple-tag{
@@ -115,7 +116,7 @@ h4{
     padding: 8px;
     font-size: 8px;
     color: white;
-    border-radius: 8px;
+    border-radius: 16px;
 }
 
 .green-tag{
@@ -123,7 +124,7 @@ h4{
     padding: 8px;
     font-size: 8px;
     color: white;
-    border-radius: 8px;
+    border-radius: 16px;
 }
 
 .lightgreen-tag{
@@ -131,7 +132,7 @@ h4{
     padding: 8px;
     font-size: 8px;
     color: white;
-    border-radius: 8px;
+    border-radius: 16px;
 }
 
 .orange-tag{
@@ -139,7 +140,8 @@ h4{
     padding: 8px;
     font-size: 8px;
     color: white;
-    border-radius: 8px;
+    border-radius: 16px;
+
 }
 
 .pink-tag{
@@ -147,5 +149,5 @@ h4{
     padding: 8px;
     font-size: 8px;
     color: white;
-    border-radius: 8px;
+    border-radius: 16px;
 }
